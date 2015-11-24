@@ -1,0 +1,18 @@
+---
+- hosts: masters
+  sudo: yes
+  roles:
+    - role: ansible-java
+      tags:
+        - java
+    - role: ansible-zookeeper
+      tags: 
+        - zookeeper
+    - role: ansible-mesos
+      mesos_install_mode: master
+      tags: 
+        - mesos
+        - mesos-master
+    - role: ansible-marathon
+      tags:
+        - marathon

@@ -1,0 +1,24 @@
+- src: https://github.com/AnsibleShipyard/ansible-docker
+  path: roles
+  version: master
+  scm: git
+
+- src: https://github.com/AnsibleShipyard/ansible-java
+  path: roles
+  version: master
+  scm: git
+
+- src: https://github.com/mymesos/ansible-zookeeper
+  path: roles
+  version: master
+  scm: git
+
+- src: https://github.com/AnsibleShipyard/ansible-mesos
+  path: roles
+  version: master
+  scm: git
+
+- src: https://github.com/AnsibleShipyard/ansible-marathon
+  path: roles
+  version: master
+  scm: git

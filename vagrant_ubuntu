@@ -1,0 +1,13 @@
+[masters]
+192.168.100.3 zoo_id=1
+
+[slaves]
+192.168.100.3
+
+[masters:vars]
+mesos_ip=192.168.100.3
+mesos_hostname=192.168.100.3
+
+[slaves:vars]
+mesos_ip=192.168.100.3
+mesos_hostname=192.168.100.3

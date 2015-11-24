@@ -1,0 +1,12 @@
+---
+- hosts: slaves
+  sudo: yes
+  roles:
+    - role: ansible-docker
+      tags:
+        - docker
+    - role: ansible-mesos
+      mesos_install_mode: slave
+      tags:
+        - mesos
+        - mesos-slave
