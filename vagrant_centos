@@ -3,11 +3,3 @@
 
 [slaves]
 192.168.100.4
-
-[masters:vars]
-mesos_ip=192.168.100.4
-mesos_hostname=192.168.100.4
-
-[slaves:vars]
-mesos_ip=192.168.100.4
-mesos_hostname=192.168.100.4

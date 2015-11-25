@@ -1,5 +1,0 @@
----
-mesos_version: 0.25.0
-mesos_package_version: 0.2.70
-java_version: 8
-use_openjdk_ppa: true

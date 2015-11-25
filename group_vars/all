@@ -1,0 +1,5 @@
+---
+zookeeper_hostnames: "{{ groups.masters | join(':' + zookeeper_client_port + ',') }}:{{zookeeper_client_port}}"
+zookeeper_hosts: "{{ groups.masters }}"
+java_version: 8
+use_openjdk_ppa: true

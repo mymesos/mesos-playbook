@@ -1,4 +1,4 @@
-- src: https://github.com/AnsibleShipyard/ansible-docker
+- src: https://github.com/mymesos/ansible-docker
   path: roles
   version: master
   scm: git
@@ -13,12 +13,12 @@
   version: master
   scm: git
 
-- src: https://github.com/AnsibleShipyard/ansible-mesos
+- src: https://github.com/mymesos/ansible-mesos
   path: roles
   version: master
   scm: git
 
-- src: https://github.com/AnsibleShipyard/ansible-marathon
+- src: https://github.com/mymesos/ansible-marathon
   path: roles
   version: master
   scm: git

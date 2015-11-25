@@ -1,7 +1,0 @@
----
-mesos_quorum: "{{ ((groups.masters | length) // 2) + 1 }}"
-zookeeper_hostnames: "{{ groups.masters | join(':' + zookeeper_client_port + ',') }}:{{zookeeper_client_port}}"
-marathon_version: 0.11.1
-marathon_zookeeper_path: /init-marathon
-haproxy_script_location: ""
-zookeeper_hosts: "{{ groups.masters }}"
